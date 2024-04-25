@@ -14,7 +14,7 @@ public class Principal {
         String autor = sc.next();
 
         System.out.println("Ingrese el genero del libro.");
-        String genero = sc.next();
+        String genero = sc.nextLine();
 
         System.out.println("Ingrese el año de publicación del libro.");
         int anoPublicacion = sc.nextInt();
